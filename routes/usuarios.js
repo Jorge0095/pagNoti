@@ -1,7 +1,7 @@
 import express from 'express';
 import bcrypt from 'bcrypt';
-import db from '../db.js';
-import { registrarUsuario, verificarUsuario } from '../usuarios.js';
+import db from '../module/db.js';
+import { registrarUsuario, verificarUsuario } from '../module/auth.js';
 
 const router = express.Router();
 
