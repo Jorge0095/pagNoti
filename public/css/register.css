@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #f0f4f8;
+    background: #666666;
     margin: 0;
     font-family: Arial, sans-serif;
   }
@@ -18,7 +18,7 @@ body {
   }
   
   .form-container h2 {
-    background: #007bff; /* Azul del header */
+    background: #980000;
     color: #fff;
     margin: -40px -30px 30px -30px;
     padding: 20px 0;
@@ -62,12 +62,12 @@ body {
   }
   
   .form-container input:focus {
-    border-color: #007bff;
+    border-color: #acacac;
     outline: none;
   }
   
   .auth-btn {
-    background: #003366;
+    background: #b10000;
     color: #fff;
     padding: 12px;
     border: none;
@@ -78,6 +78,6 @@ body {
   }
   
   .auth-btn:hover {
-    background: #0055a5;
+    background: #a22929;
   }
   

@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #f0f4f8;
+    background: #666666;
     margin: 0;
     font-family: Arial, sans-serif;
   }
@@ -20,7 +20,7 @@ body {
   }
   
   .auth-container h2 {
-    background: #007bff; /* Banda azul arriba */
+    background: #980000;
     color: #fff;
     margin: -40px -30px 30px -30px;
     padding: 20px 0;
@@ -63,7 +63,7 @@ body {
   }
   
   .input-group input:focus {
-    border-color: #007bff;
+    border-color: #acacac;
   }
   
   .auth-options {
@@ -76,7 +76,7 @@ body {
   
   .auth-options a {
     text-decoration: none;
-    color: #007bff;
+    color: #b10000;
   }
   
   .auth-options a:hover {
@@ -84,7 +84,7 @@ body {
   }
   
   .auth-btn {
-    background: #003366; /* Botón azul oscuro */
+    background: #a22929;
     color: #fff;
     padding: 12px;
     border: none;
