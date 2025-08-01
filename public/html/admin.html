@@ -6,6 +6,19 @@
   <link rel="stylesheet" href="../css/admin.css">
 </head>
 <body>
+
+    <div class="sidebar left">
+    <button>Inicio</button>
+    <button>Noticias</button>
+    <button>Usuarios</button>
+  </div>
+
+  <!-- Barra lateral derecha -->
+  <div class="sidebar right">
+    <button>Perfil</button>
+    <button>Salir</button>
+  </div>
+
   <div class="admin-container">
     <h2>Subir Noticia</h2>
     <form id="adminForm" class="admin-form">
@@ -24,7 +37,8 @@
       </select>
 
       <label for="image">Imagen</label>
-      <input type="file" id="image" name="image">
+      <input type="file" id="image" name="images[]" multiple>
+      <div id="preview"></div>
 
       <label for="description">Descripción</label>
       <textarea id="description" name="description" required></textarea>

@@ -18,13 +18,13 @@ body {
   background: #fff;
   padding: 40px;
   border-radius: 8px;
-  max-width: 500px;
+  max-width: 900px;
   width: 100%;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .admin-container h2 {
-  background: #007bff;
+  background: #980000;
   color: #fff;
   margin: -40px -40px 30px -40px;
   padding: 20px;
@@ -110,4 +110,85 @@ body {
 .admin-form select:focus {
   border-color: #007bff;
   outline: none;
+}
+
+/* visualizar las imágenes seleccionadas */
+
+#preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.preview-image {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.preview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preview-image button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: rgba(255, 0, 0, 0.7);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+/*barras laterales*/
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background: #343a40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 10px;
+  z-index: 999;
+}
+
+.sidebar button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.3s ease;
+}
+
+.sidebar button:hover {
+  background: #0056b3;
+}
+
+.sidebar.left {
+  left: 0;
+}
+
+.sidebar.right {
+  right: 0;
+}
+
+.admin-container {
+  margin-left: 100px;
+  margin-right: 100px;
 }
