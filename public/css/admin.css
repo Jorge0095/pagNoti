@@ -24,7 +24,7 @@ body {
 }
 
 .admin-container h2 {
-  background: #1e0098;
+  background: #980000;
   color: #fff;
   margin: -40px -40px 30px -40px;
   padding: 20px;
@@ -165,8 +165,8 @@ body {
 }
 
 .sidebar button {
-  background: #007bff;
-  color: white;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 8px;
   width: 60px;
@@ -177,7 +177,7 @@ body {
 }
 
 .sidebar button:hover {
-  background: #0056b3;
+  background: #ffffff;
 }
 
 .sidebar.left {
