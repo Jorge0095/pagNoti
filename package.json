@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "bootstrap": "^5.3.7",
     "cors": "^2.8.5",
     "decrypt": "^0.0.1",
