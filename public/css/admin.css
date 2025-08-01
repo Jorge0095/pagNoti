@@ -1,0 +1,113 @@
+/* -----------------------------------------
+   ESTILO ADMIN - Publicar noticia fácilmente
+-------------------------------------------- */
+
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.admin-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.admin-container h2 {
+  background: #007bff;
+  color: #fff;
+  margin: -40px -40px 30px -40px;
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="file"],
+.admin-form textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.admin-btn {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.admin-btn:hover {
+  background: #218838;
+}
+
+.helper-text {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.success-message {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.admin-form select {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
