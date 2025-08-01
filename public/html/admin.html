@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subir Noticia</title>
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+  <div class="admin-container">
+    <h2>Subir Noticia</h2>
+    <form id="adminForm" class="admin-form">
+      <label for="title">Título</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="category">Categoría</label>
+      <select id="category" name="category" required>
+        <option value="">Selecciona una categoría</option>
+        <option value="Politica">Política</option>
+        <option value="Deportes">Deportes</option>
+        <option value="Tecnologia">Tecnología</option>
+        <option value="Nacional">Nacional</option>
+        <option value="Internacional">Internacional</option>
+        <option value="Opinión">Opinión</option>
+      </select>
+
+      <label for="image">Imagen</label>
+      <input type="file" id="image" name="image">
+
+      <label for="description">Descripción</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <button type="submit" class="admin-btn">Publicar</button>
+    </form>
+  </div>
+
+  <script src="../js/admin.js"></script>
+  <script src="../js/header.js"></script>
+</body>
+</html>
+
+  
