@@ -21,7 +21,7 @@
   left: -300px;
   width: 280px;
   height: 100%;
-  background-color: white;
+  background-color: #666666;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
   transition: var(--transition);
   z-index: 300;
@@ -39,7 +39,7 @@
   align-items: center;
   margin-bottom: 20px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #712f2f;
 }
 
 .sidebar-header h2 {
@@ -52,7 +52,7 @@
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #777;
+  color: white;
 }
 
 .sidebar-nav ul {
@@ -67,7 +67,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  color: #555;
+  color: #930000;
   text-decoration: none;
   border-radius: 4px;
   transition: var(--transition);
