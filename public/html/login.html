@@ -4,29 +4,39 @@
   <meta charset="UTF-8" />
   <title>Iniciar Sesión</title>
   <link rel="stylesheet" href="../css/login.css">
+  <script src="../js/include.js" defer></script>
 </head>
 <body>
-  <div class="auth-container">
-    <h2>USER LOGIN</h2>
-    <div class="user-icon">
-      <!-- Puedes usar una imagen o ícono font-awesome -->
-      <img src="../img/user-icon.png" alt="User Icon">
+
+  <!-- HEADER -->
+  <div data-include="../html/partials/header.html"></div>
+
+  <!-- Contenido centrado -->
+  <div class="page-wrapper">
+    <div class="auth-container">
+      <h2>USER LOGIN</h2>
+      <div class="user-icon">
+        <img src="../img/user-icon.png" alt="User Icon" />
+      </div>
+      <form id="loginForm" class="auth-form">
+        <div class="input-group">
+          <input type="text" id="username" placeholder="Usuario" required />
+        </div>
+        <div class="input-group">
+          <input type="password" id="password" placeholder="Contraseña" required />
+        </div>
+        <div class="auth-options">
+          <label><input type="checkbox"> Recordar contraseña</label>
+          <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+        <button type="submit" class="auth-btn">Iniciar Sesión</button>
+      </form>
     </div>
-    <form id="loginForm" class="auth-form">
-      <div class="input-group">
-        <input type="text" id="username" placeholder="Usuario" required>
-      </div>
-      <div class="input-group">
-        <input type="password" id="password" placeholder="Contraseña" required>
-      <div class="auth-options">
-        <label><input type="checkbox"> Recordar contraseña</label>
-        <a href="#">Olvidaste tu contraseña?</a>
-      </div>
-      <button type="submit" class="auth-btn">Iniciar Sesión</button>
-    </form>
   </div>
 
+  <!-- FOOTER -->
+  <div data-include="../html/partials/footer.html"></div>
+
   <script src="../js/auth.js"></script>
-  <script src="../js/header.js"></script>
 </body>
 </html>
