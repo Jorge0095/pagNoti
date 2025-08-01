@@ -1,100 +1,152 @@
 /* -------- LOGIN PAGE STYLE -------- */
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #666666;
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .auth-container {
-    background: #fff;
-    padding: 40px 30px;
-    border-radius: 8px;
-    width: 320px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  .auth-container h2 {
-    background: #980000;
-    color: #fff;
-    margin: -40px -30px 30px -30px;
-    padding: 20px 0;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-  }
-  
-  .user-icon {
-    width: 70px;
-    height: 70px;
-    background: #ddd;
-    border-radius: 50%;
-    margin: 0 auto 20px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .user-icon img {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .auth-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .input-group {
-    margin-bottom: 15px;
-  }
-  
-  .input-group input {
-    width: 100%;
-    padding: 12px 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  .input-group input:focus {
-    border-color: #acacac;
-  }
-  
-  .auth-options {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 12px;
-    margin-bottom: 20px;
-  }
-  
-  .auth-options a {
-    text-decoration: none;
-    color: #b10000;
-  }
-  
-  .auth-options a:hover {
-    text-decoration: underline;
-  }
-  
-  .auth-btn {
-    background: #a22929;
-    color: #fff;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.3s ease;
-  }
-  
-  .auth-btn:hover {
-    background: #218838;
-  }
-  
+  background: #666666;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Wrapper para centrar solo el contenido del login */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px); /* Ajustado para header + footer */
+  padding-top: 30px;
+}
+
+.auth-container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 8px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-container h2 {
+  background: #980000;
+  color: #fff;
+  margin: -40px -30px 30px -30px;
+  padding: 20px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.user-icon {
+  width: 70px;
+  height: 70px;
+  background: #ddd;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  border-color: #acacac;
+}
+
+.auth-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.auth-options a {
+  text-decoration: none;
+  color: #b10000;
+}
+
+.auth-options a:hover {
+  text-decoration: underline;
+}
+
+.auth-btn {
+  background: #a22929;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.auth-btn:hover {
+  background: #218838;
+}
+
+/* -------- HEADER + FOOTER STYLE -------- */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.site-header .logo i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.site-header .site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.site-header .header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.site-header .btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  background-color: #ddd;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.site-header .btn:hover {
+  background-color: #ccc;
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #eee;
+}
