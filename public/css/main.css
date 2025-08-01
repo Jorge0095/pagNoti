@@ -39,7 +39,7 @@
 }
 
 .note-card {
-  background-color: white;
+  background-color: rgb(140, 140, 140);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -105,7 +105,7 @@
   top: 20px;
   left: 20px;
   background-color: var(--secondary-color);
-  color: white;
+  color: rgb(130, 0, 0);
   width: 40px;
   height: 40px;
   border-radius: 50%;

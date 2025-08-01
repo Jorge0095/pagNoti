@@ -3,7 +3,7 @@
 -------------------------------------------- */
 
 body {
-  background: #666666;
+  background: #000000aa;
   font-family: Arial, sans-serif;
   margin: 0;
   min-height: 100vh;
@@ -24,7 +24,7 @@ body {
 }
 
 .admin-container h2 {
-  background: #980000;
+  background: #1e0098;
   color: #fff;
   margin: -40px -40px 30px -40px;
   padding: 20px;
@@ -68,7 +68,7 @@ body {
 }
 
 .admin-btn {
-  background: #a72828;
+  background: #282ca7;
   color: #fff;
   border: none;
   padding: 15px;
@@ -140,7 +140,7 @@ body {
   position: absolute;
   top: 2px;
   right: 2px;
-  background: rgba(255, 0, 0, 0.7);
+  background: rgba(0, 234, 255, 0.7);
   border: none;
   color: white;
   font-weight: bold;
