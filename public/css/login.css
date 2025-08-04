@@ -1,18 +1,17 @@
-/* -------- LOGIN PAGE STYLE -------- */
-
-body {
-  background: #666666;
+html, body {
+  height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Wrapper para centrar solo el contenido del login */
-.page-wrapper {
+main {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - 160px); /* Ajustado para header + footer */
-  padding-top: 30px;
 }
 
 .auth-container {
@@ -21,7 +20,7 @@ body {
   border-radius: 8px;
   width: 320px;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .auth-container h2 {
@@ -68,7 +67,8 @@ body {
 }
 
 .input-group input:focus {
-  border-color: #acacac;
+  border-color: #980000;
+  outline: none;
 }
 
 .auth-options {
@@ -89,7 +89,7 @@ body {
 }
 
 .auth-btn {
-  background: #a22929;
+  background: #b10000;
   color: #fff;
   padding: 12px;
   border: none;
@@ -100,53 +100,9 @@ body {
 }
 
 .auth-btn:hover {
-  background: #218838;
+  background: #870000;
 }
 
-/* -------- HEADER + FOOTER STYLE -------- */
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding: 15px 30px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-}
-
-.site-header .logo i {
-  font-size: 24px;
-  margin-right: 10px;
-}
-
-.site-header .site-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin: 0;
-}
-
-.site-header .header-buttons {
-  display: flex;
-  gap: 10px;
-}
-
-.site-header .btn {
-  padding: 6px 12px;
-  font-size: 0.9rem;
-  background-color: #ddd;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.site-header .btn:hover {
-  background-color: #ccc;
-}
-
-.site-footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 10px;
-  font-size: 0.9rem;
-  color: #eee;
+footer {
+  margin-top: auto;
 }

@@ -1,23 +1,26 @@
-<!-- public/html/partials/header.html -->
-<header class="site-header">
-  <div class="logo">
-    <i class="fas fa-newspaper"></i>
+<nav class="navbar navbar-expand-lg navbar-light bg-white border shadow-sm px-4">
+  <div class="container-fluid">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item mx-3">
+        <a class="nav-link fw-bold" href="/">INICIO</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link fw-bold" href="noticias.html">NOTICIAS</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link fw-bold" href="user-menu">MENU</a>
+      </li>
+    </ul>
+    <span class="navbar-text fw-bold mx-auto d-none d-lg-block">
+      EL CONTRAPESO INFORMATIVO
+    </span>
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item mx-2">
+        <a class="nav-link fw-bold" href="login">INICIAR SESIÓN</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link fw-bold" href="register">REGISTRARSE</a>
+      </li>
+    </ul>
   </div>
-  <div class="header-actions">
-    <button class="menu-btn" id="menu-toggle">
-      <i class="fas fa-bars"></i>
-    </button>
-    <span class="site-title">El Contrapeso Informativo</span>
-    <div id="auth-buttons">
-      <button class="btn btn-primary" id="login-btn">
-        <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
-      </button>
-      <button class="btn btn-secondary" id="register-btn">
-        <i class="fas fa-user-plus"></i> Registrate
-      </button>
-    </div>
-    <button class="btn btn-user" id="user-btn" style="display: none;">
-      <i class="fas fa-user"></i> USUARIO
-    </button>
-  </div>
-</header>
+</nav>
